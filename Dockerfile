@@ -4,4 +4,6 @@ RUN npm install -g danger
 
 WORKDIR /app
 
-ENTRYPOINT ["danger", "ci", "--failOnErrors"]
+COPY docker-entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
