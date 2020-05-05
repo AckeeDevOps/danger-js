@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:12.16.3-buster-slim
 
 RUN apt-get update && apt-get install -y git python build-essential ssh
 
