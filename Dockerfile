@@ -1,4 +1,4 @@
-FROM node:12.22.7-buster-slim
+FROM node:16.14.0-buster-slim
 
 RUN apt-get update && apt-get install -y \
     build-essential \
