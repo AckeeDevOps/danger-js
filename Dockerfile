@@ -1,4 +1,4 @@
-FROM node:16.14.0-bullseye-slim
+FROM node:16.20.2-bullseye-slim
 
 RUN apt-get update && apt-get install -y \
     build-essential \
